@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/mail.css">
+</head>
+<body>
+
+<section id="section-form" class="section-form">
+    <form id="form" class="" method="POST">
+      <input style="display:none;" type="text" name="Заявка из раздела" value="Раздел">
+      <label for="name-visa">Your Name:</label>
+      <input class="form-control" type="text" name="Имя" id="name-visa" placeholder="Piter Parker" required  />
+      <br />
+      <label for="email-visa">Your Email:</label>
+      <input class="form-control" type="email" name="Эмейл" id="email-visa" placeholder="name@gmail.com" required/>
+      <br />
+      <button class="btn">Send</button>
+    </form>
+	<div class="overlay js-overlay-thank-you">
+   		<div class="popup js-thank-you">
+     	<h3>Спасибо за заявку</h3>
+      	<div class="close-popup js-close-thank-you"></div>
+    	</div>
+  	</div>
+</section>
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/mail.js"></script>
+</body>
+</html>
